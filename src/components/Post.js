@@ -9,7 +9,7 @@ export default class Post extends Component {
                     src="https://upload.wikimedia.org/wikipedia/commons/4/48/Outdoors-man-portrait_%28cropped%29.jpg" 
                     alt="man" 
                     name="Scott" 
-                    min={true}/>
+                    min/>
                 <img src={this.props.src} alt={this.props.alt}></img>
                 <div className="post__name">
                     some account
